@@ -38,3 +38,19 @@ switch (userType) {
         userCategory = "Unknown";
 }
 console.log("User Category:", userCategory);
+
+let Dietary_Services = "Employee";
+let eligibility;
+switch(Dietary_Services){
+    case "Employee":
+        eligibility = "Eligible to avail service"
+        break;
+    case "Enrolled Member":
+        eligibility = "Eligible to avail service and one-on-one interaction with a dietician"
+        break;
+    case "Non-Subscriber":
+        eligibility = "enroll or at least subscribe first to avail this facility" 
+        break;
+}
+
+console.log(Dietary_Services, eligibility)
